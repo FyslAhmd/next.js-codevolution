@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const G1 = () => {
+const F1 = () => {
   return (
     <div>
       <h1>F1 Page</h1>
@@ -13,4 +13,4 @@ const G1 = () => {
   );
 };
 
-export default G1;
+export default F1;
