@@ -1,13 +1,7 @@
 export const Card = ({ children }) => {
-  const cardStyle = {
-    padding: "100px",
-    margin: "10px",
-    boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)",
-    border: "1px solid #ddd",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-  };
-
-  return <div style={cardStyle}>{children}</div>;
+  return (
+    <div className="flex flex-col justify-center items-center border-gray-600 shadow-lg m-3 p-28">
+      {children}
+    </div>
+  );
 };
